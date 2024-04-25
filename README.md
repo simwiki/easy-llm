@@ -12,3 +12,17 @@ This repository contains a series of  Python scripts that demonstrate how to fin
 - Fine-tuning a pre-trained LLM model on a custom dataset.
 - Using a fine-tuned LLM model to generate predictions (inference).
 - Detailed comments explaining each step of the process.
+
+## Milestone
+
+
+| Status | Base Model | Finetune Method | Dataset type | Desc | Code  
+| :----: | :--------: | :--------------: | :---------: | :---------: |  :--: 
+| <input type="checkbox" checked> | tiiuae/falcon-7b |  QLoRA  |  heliosbrahma/mental_health_chatbot_dataset  | finetune demo using lora with SFT |  [Code](./falcon-7b/finetune_v1.py) 
+| <input type="checkbox" checked> | tiiuae/falcon-7b |  QLoRA  |  -   | inference demo using lora  |  [Code](./falcon-7b/inference_v1.py) 
+|  <input type="checkbox" checked>  | tiiuae/falcon-7b |  QLoRA  |  b-mc2/sql-create-context   | finetune demo using lora |  [Code](./falcon-7b/finetune_v2.py) 
+|  <input type="checkbox" checked>  | tiiuae/falcon-7b |  QLoRA  |  -        |       |  [Code](./falcon-7b/inference_v2.py) 
+<!-- |  <input type="checkbox" unchecked>  | tiiuae/falcon-7b |  QLoRA  |  custom   | finetune demo using lora with custom json format dataset on multi server GPUs|  
+|  <input type="checkbox" unchecked>  | tiiuae/falcon-7b |  QLoRA  |  -        |       |   -->
+
+
