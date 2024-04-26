@@ -145,6 +145,7 @@ model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True,                # Set trust_remote_code=True to use falcon-7b model with custom code
 )
 # model.print_trainable_parameters()          # Be more transparent about the % of trainable params.
+model = prepare_model_for_kbit_training(model)
 
 lora_config = {
     'r': 32,                                # dimension of the low-rank matrices
