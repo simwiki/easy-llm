@@ -119,8 +119,8 @@ def prepare_data(data, val_set_size=100):
 
 
 model_name = "tiiuae/falcon-7b"
-output_dir = "./falcon_7b_lora_v4"
-wandb_run_name = f"run-falcon-7b-lora-v4-{datetime.now().strftime('%Y-%m-%d-%H-%M')}"
+output_dir = "./falcon_7b_lora_v2"
+wandb_run_name = f"run-falcon-7b-lora-v2-{datetime.now().strftime('%Y-%m-%d-%H-%M')}"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name, add_eos_token=True)
 print(f"Using tokenizer: {tokenizer.__class__.__name__}")

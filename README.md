@@ -16,7 +16,7 @@ This repository contains a series of  Python scripts that demonstrate how to fin
 ## Milestone
 
 
-| Status | Base Model | Finetune Method | Dataset type | Desc | Code  
+| Status | Base Model | Finetune Method | Dataset | Desc | Code  
 | :----: | :--------: | :--------------: | :---------: | :---------: |  :--: 
 | <input type="checkbox" checked> | tiiuae/falcon-7b |  QLoRA  |  heliosbrahma/mental_health_chatbot_dataset  | finetune demo using lora with SFT |  [Code](./falcon-7b/finetune_v1.py) 
 | <input type="checkbox" checked> | tiiuae/falcon-7b |  QLoRA  |  -   | inference demo using lora  |  [Code](./falcon-7b/inference_v1.py) 
